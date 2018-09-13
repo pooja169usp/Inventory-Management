@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="admin.html"><span id="brand">CME</span><br />Clicking Made Easy</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="new_invent.html">New Inventory</a></li>
+      <li><a href="edit_invent.html" class="activeItem">Edit Inventory</a></li>
+      <li><a href="delete_invent.html">Delete Inventory</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Log out</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+    <form method="post" enctype="multipart/form-data" name="myform">
+  <div class="row" id="row1">
+      <br>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">Edit Inventory Record</h3>
+          </div>
+          <div class="panel-body">
+              <div class="row">
+                  <div class="col-lg-5">
+                      SKU :
+                  </div>
+                  <div class="col-lg-6">
+                      <input type="text" name="sku" placeholder="Eg: XXX-###" class="form-control">
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Category :
+                  </div>
+                  <div class="col-lg-6">
+                      <select class="form-control" name="category">
+                          <option value="1">DSLR</option>
+                          <option value="2">Point and Shoot</option>
+                          <option value="3">Advanced Amateur</option>
+                          <option value="4">Underwater</option>
+                          <option value="5">Film</option>
+                          <option value="6">Mirrorless</option>
+                          <option value="7">Superzoom</option>
+                      </select>
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Vendor :
+                  </div>
+                  <div class="col-lg-6">
+                      <select class="form-control" name="vendor">
+                          <option value="1">Nikon</option>
+                          <option value="2">Canon</option>
+                          <option value="3">Olympus</option>
+                          <option value="4">Lumix</option>
+                          <option value="5">Pentax</option>
+                          <option value="6">Leica</option>
+                          <option value="7">Sony</option>
+                          <option value="8">Fuji</option>
+                      </select>
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Manufacturer's Identifier :
+                  </div>
+                  <div class="col-lg-6">
+                      <input type="text" placeholder="Eg: N11" class="form-control" name="man_ident">
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Description :
+                  </div>
+                   <div class="col-lg-6">
+                      <textarea placeholder="Description" rows="3" class="form-control" name="description"></textarea>
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Features :
+                  </div>
+                   <div class="col-lg-6">
+                      <textarea placeholder="Features" rows="5" class="form-control" name="features"></textarea>
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Cost :
+                  </div>
+                  <div class="col-lg-1 col-lg-zero">
+                      $
+                  </div>
+                  <div class="col-lg-3">
+                      <input type="text" class="form-control" name="cost">
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Retail :
+                  </div>
+                  <div class="col-md-1 col-lg-zero">
+                      $
+                  </div>
+                  <div class="col-lg-3">
+                      <input type="text" class="form-control" name="retail">
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Quantity :
+                  </div>
+                  <div class="col-lg-3">
+                      <input type="number" class="form-control">
+                  </div>
+              </div>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-5">
+                      Product Image :
+                  </div>
+                  <div class="col-lg-6">
+                      <input type="file" accept="image/*" class="form-control" name="prod_image">
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-3">
+
+                  </div>
+                  <div class="col-lg-2">
+                      <button type="reset" class="btn btn-danger" name="clear-btn">Clear Fields</button>
+                  </div>
+                  <div class="col-lg-1">
+
+                  </div>
+                  <div class="col-lg-2">
+                      <button class="btn btn-success" name="add-invent-btn">Edit Inventory</button>
+                  </div>
+              </div>
+              <br>
+          
+
+      </div>
+  </div>
+</div>
+</form>
+</div>
+
+</body>
+</html>

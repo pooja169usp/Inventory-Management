@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="admin.html"><span id="brand">CME</span><br />Clicking Made Easy</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="new_invent.html">New Inventory</a></li>
+      <li><a href="edit_invent.html">Edit Inventory</a></li>
+      <li><a href="delete_invent.html" class="activeItem">Delete Inventory</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Log out</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  
+  <div class="row" id="row1">
+      <br>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">Delete Inventory Record</h3>
+          </div>
+          <div class="panel-body">
+              <div class="row">
+                  <div class="col-lg-5">
+                      SKU :
+                  </div>
+                  <div class="col-lg-6">
+                      <input type="text" placeholder="Eg: XXX-###" class="form-control">
+                  </div>
+              </div>
+              <br>
+
+              
+              <br>
+              <br>
+              <br>
+
+              <div class="row">
+                  <div class="col-lg-3">
+
+                  </div>
+                  <div class="col-lg-2">
+                      <button class="btn btn-danger">Clear Fields</button>
+                  </div>
+                  <div class="col-lg-1">
+
+                  </div>
+                  <div class="col-lg-2">
+                      <button class="btn btn-success">Delete Inventory</button>
+                  </div>
+              </div>
+              <br>
+          
+
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

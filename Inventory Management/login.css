@@ -1,0 +1,116 @@
+/* 	 Guggari, Pooja Maheshwar. 
+	 Class Account# jadrn011
+	 Spring 2018
+*/
+
+.bg {
+	background: url('pixel2.jpeg') no-repeat; height: 100vh;
+	background-size: 100% 100%;
+}
+.form-container {
+	border: 1px solid #fff;
+	padding: 30px 40px;
+	margin-top: 20vh;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 68px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 68px 7px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 68px 7px rgba(0,0,0,0.75);
+	
+}
+
+#eprod-image-label {
+	position: relative;
+    top: 31px;
+    left: 95px;
+    /* visibility: hidden; */
+}
+
+#eprod-image {
+	color: white;
+}
+
+header {
+	text-align: center;
+}
+
+a.head_title {
+	font-size: 30px;
+	color: #333;
+}
+
+.error {  
+    background-color: #FEE;  
+    }
+
+.cool {
+	background-color: white;
+}
+
+#status {
+	text-align: center;
+	color: red;
+}
+
+#pic {
+	margin:0 auto;
+	text-align: center;
+}
+
+.alert-danger {
+	border: 1px solid #fff;
+	padding: 5px 5px;
+	margin:0 auto;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 68px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 68px 7px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 68px 7px rgba(0,0,0,0.75);
+	font-size: 30px;
+	width: 600px;
+}
+
+.navbar-brand {
+	width: 300px;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+
+#brand {
+	font-size: 30px;
+}
+
+.navbar-nav {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.navbar-nav li a.activeItem {
+	background-color: #ddd;
+  	color: black;
+}
+
+.container {
+	margin:0 auto;
+	width: 800px;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #333;
+    color: white;
+    border-color: #333;
+
+}
+
+
+.panel {
+	-webkit-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
+}
+
+.col-lg-zero {
+	width: 5px;
+}
