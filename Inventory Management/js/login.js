@@ -46,11 +46,11 @@ $(document).ready(function() {
             		window.location = "http://jadran.sdsu.edu/perl/jadrn011/proj1/admin.cgi";
             	}
             	else if(response == 0) {
-            		// Invalid Username/Password :TODO
+            		
             	}
             },
             error: function(response) {
-               //
+               
             }
         });
 	});
