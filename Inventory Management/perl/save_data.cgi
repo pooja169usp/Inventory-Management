@@ -1,7 +1,5 @@
 #!/usr/bin/perl 
-#	Sample perl cgi script.  This script prints a list of the 
-#	products in the opatija proj4.products table.
-#       For use with AJAX
+
 # /* 	 Guggari, Pooja Maheshwar. 
 # 	 Class Account# jadrn017 
 # 	 Fall 2017
