@@ -1,10 +1,7 @@
 #!/usr/bin/perl 
 
 #   file upload script.  
-#   Remember that you MUST use enctype="mulitpart/form-data"
-#   in the web page that invokes this script, and the destination 
-#   directory for the uploaded file must have permissions set to 777.  
-#   Do NOT set 777 permission on any other directory in your account!
+
 #   
 #    Guggari, Pooja Maheshwar. 
 #    Class Account# jadrn011
